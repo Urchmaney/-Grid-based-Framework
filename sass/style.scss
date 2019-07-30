@@ -12,10 +12,11 @@
         padding-left: 15px;
         padding-right: 15px;
         width: $column-width * $value;
-      }
+      }      
       .offset-#{$value} {
         margin-left: $column-width * $value;
       }
+      
     }
   }
   &.no_gutter {
@@ -31,5 +32,40 @@
 body {
   div {
     border: 1px solid red;
+  }
+}
+
+
+@for $value from 1 through 7 {
+  .m-#{$value}{
+    margin:$value/4+rem !important;
+  }
+  .mt-#{$value}{
+    margin-top:$value/4+rem !important;
+  }
+  .mb-#{$value}{
+    margin-bottom:$value/4+rem !important;
+  }
+  .ml-#{$value}{
+    margin-left:$value/4+rem !important;
+  }
+  .mr-#{$value}{
+    margin-right:$value/4+rem !important;
+  }
+
+  .p-#{$value}{
+    padding:$value/4+rem !important;
+  }
+  .pt-#{$value}{
+    padding-top:$value/4+rem !important;
+  }
+  .pb-#{$value}{
+    padding-bottom:$value/4+rem !important;
+  }
+  .pr-#{$value}{
+    padding-right:$value/4+rem !important;
+  }
+  .pl-#{$value}{
+    padding-left:$value/4+rem !important;
   }
 }
