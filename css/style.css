@@ -17,6 +17,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  box-sizing: border-box;
 }
 
 article, aside, details, figcaption, figure,
@@ -45,6 +46,119 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.container {
+  width: 100%;
+}
+.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.container .row .col-1 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 8.3333333333%;
+}
+.container .row .offset-1 {
+  margin-left: 8.3333333333%;
+}
+.container .row .col-2 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 16.6666666667%;
+}
+.container .row .offset-2 {
+  margin-left: 16.6666666667%;
+}
+.container .row .col-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 25%;
+}
+.container .row .offset-3 {
+  margin-left: 25%;
+}
+.container .row .col-4 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 33.3333333333%;
+}
+.container .row .offset-4 {
+  margin-left: 33.3333333333%;
+}
+.container .row .col-5 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 41.6666666667%;
+}
+.container .row .offset-5 {
+  margin-left: 41.6666666667%;
+}
+.container .row .col-6 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 50%;
+}
+.container .row .offset-6 {
+  margin-left: 50%;
+}
+.container .row .col-7 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 58.3333333333%;
+}
+.container .row .offset-7 {
+  margin-left: 58.3333333333%;
+}
+.container .row .col-8 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 66.6666666667%;
+}
+.container .row .offset-8 {
+  margin-left: 66.6666666667%;
+}
+.container .row .col-9 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 75%;
+}
+.container .row .offset-9 {
+  margin-left: 75%;
+}
+.container .row .col-10 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 83.3333333333%;
+}
+.container .row .offset-10 {
+  margin-left: 83.3333333333%;
+}
+.container .row .col-11 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 91.6666666667%;
+}
+.container .row .offset-11 {
+  margin-left: 91.6666666667%;
+}
+.container .row .col-12 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+.container .row .offset-12 {
+  margin-left: 100%;
+}
+.container.no_gutter .row [class*=col-] {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+body div {
+  border: 1px solid red;
 }
 
 /*# sourceMappingURL=style.css.map */
