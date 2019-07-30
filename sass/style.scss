@@ -2,7 +2,7 @@
 @import "grid";
 @import "spacing";
 @import "text";
-
+@import "layout";
 
 body {
   $drupalBlue:#064771;
@@ -57,6 +57,36 @@ body {
       button{
        border:none;
         background-color: $drupalBlue;
+      }
+    }
+
+    > section:nth-child(4) {
+      h2{
+        font-size:3rem;
+      }
+      height:232px;
+      background-color: $drupalBlue;
+      .row{
+        background-color: white;
+        height: 200px;      
+        max-width: 960px;
+         
+       
+        >p{
+          right:0;
+          top:4px;
+          font-size: 0.75rem;
+        }
+        @media screen and (max-width: 576px) {
+          >p{
+            bottom:4px;            
+            top:auto;
+          }
+        } 
+        button{
+          background-color: $drupalBlue;
+          border:none;
+        }
       }
     }
   }
