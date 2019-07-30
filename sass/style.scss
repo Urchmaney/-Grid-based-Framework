@@ -1,1 +1,35 @@
-@import 'reset'
+@import "reset";
+
+.container {
+  width: 100%;
+  $column-width: 100%/12;
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    @for $value from 1 through 12 {
+      .col-#{$value} {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: $column-width * $value;
+      }
+      .offset-#{$value} {
+        margin-left: $column-width * $value;
+      }
+    }
+  }
+  &.no_gutter {
+    .row {
+      [class*="col-"] {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    }
+  }
+}
+
+body {
+  div {
+    border: 1px solid red;
+  }
+}
