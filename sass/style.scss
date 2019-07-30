@@ -5,11 +5,21 @@
 
 
 body {
+  $drupalBlue:#064771;
+  h2,p{
+    font-family: 'Ubuntu',sans-serif;
+  }
   main {
     > section:nth-child(1) {
+      h2{
+        font-size:3rem;
+      }
       background: url(../images/bg-shapes.svg) #064771 no-repeat center/cover;
     }
-    > section:nth-child(2) {      
+    > section:nth-child(2) {
+      h2{
+        font-size:2rem;
+      }
       .col-md-4:nth-child(1){
         >div{
           background-image:url(../images/inner1.svg), url(../images/section2-img1.svg) ;        
@@ -28,7 +38,6 @@ body {
         }
 
       }
-
       .col-md-4:nth-child(3){       
         >div{
           background-image: url(../images/inner3.svg),url(../images/section2-img3.svg) ;        
@@ -36,11 +45,19 @@ body {
           background-position: center;
           height:200px;
         }
-
       }
     }
-
-      
-    
+    > section:nth-child(3) {
+      h2{
+        font-size: 1.75em;
+        line-height: 1.1em;
+      }
+      height: 511px;
+      background-image: url(../images/section3-bg.jpg);
+      button{
+       border:none;
+        background-color: $drupalBlue;
+      }
+    }
   }
 }
