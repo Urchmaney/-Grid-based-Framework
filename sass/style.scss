@@ -9,5 +9,38 @@ body {
     > section:nth-child(1) {
       background: url(../images/bg-shapes.svg) #064771 no-repeat center/cover;
     }
+    > section:nth-child(2) {      
+      .col-md-4:nth-child(1){
+        >div{
+          background-image:url(../images/inner1.svg), url(../images/section2-img1.svg) ;        
+          background-repeat: no-repeat;
+          background-position: center;
+          height:200px;
+        }        
+       }
+
+       .col-md-4:nth-child(2){       
+        >div{
+          background-image: url(../images/inner2.1.svg),url(../images/inner2.svg) ;        
+          background-repeat: no-repeat;
+          background-position: center;
+          height:200px;
+        }
+
+      }
+
+      .col-md-4:nth-child(3){       
+        >div{
+          background-image: url(../images/inner3.svg),url(../images/section2-img3.svg) ;        
+          background-repeat: no-repeat;
+          background-position: center;
+          height:200px;
+        }
+
+      }
+    }
+
+      
+    
   }
 }
