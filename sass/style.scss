@@ -153,4 +153,45 @@ body {
       }
     }
   }
+
+  footer{
+    background-color: $drupalBlue;
+    >div{
+      h2{
+        font-size: 28px;
+      }
+      button{
+        width:150px;
+        background-color: transparent;
+        border:1px solid white;
+      }
+      >div{
+       
+        ul{
+          width:200px;
+          >li{
+            >a{
+               color:white;
+               text-decoration: none;
+            }
+          }
+        }
+       
+      }     
+    }
+    >div:nth-child(1){
+      background-image: url(../images/footer-bg.jpg);
+      height:149px;
+    }
+    >div:nth-child(2){
+      max-width: 1020px;
+      >div:first-child{
+        border-bottom: 1px solid #0965a1;
+      }
+      >div:last-child{
+        font-size: 18px;
+      }
+    }
+  
+  }
 }
