@@ -12,6 +12,29 @@ body {
   header{
     color:white;
     background-color: #0678be;
+
+    >div{
+      background-color: #0678be;
+      button{
+        height:72px;
+        background-color:transparent;
+        border:none;
+        i{
+          font-size: 26px;
+        }
+      }
+      ul{
+        li{
+          height:60px;
+          font-size: 18px;
+          button{
+            background-color: #7cbc48;
+            height:54px;
+            width: 132px;
+          }
+        }
+      }
+    }
     nav{
       height: 60px;
       ul{

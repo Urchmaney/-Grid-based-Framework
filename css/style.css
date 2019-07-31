@@ -1376,6 +1376,26 @@ body header {
   color: white;
   background-color: #0678be;
 }
+body header > div {
+  background-color: #0678be;
+}
+body header > div button {
+  height: 72px;
+  background-color: transparent;
+  border: none;
+}
+body header > div button i {
+  font-size: 26px;
+}
+body header > div ul li {
+  height: 60px;
+  font-size: 18px;
+}
+body header > div ul li button {
+  background-color: #7cbc48;
+  height: 54px;
+  width: 132px;
+}
 body header nav {
   height: 60px;
 }
