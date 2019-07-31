@@ -89,5 +89,25 @@ body {
         }
       }
     }
+    > section:nth-child(5) {
+      h2{
+        font-size: 28px;
+      }
+      .row{
+        >div{
+          >div:first-child{
+            width: 100%;
+            height: 167px;
+            background: url(../images/section5-bg.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            >img{
+              height: 80px;
+              width: 96px;
+            }
+          }
+        }
+      }
+    }
   }
 }

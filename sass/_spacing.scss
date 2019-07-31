@@ -31,7 +31,7 @@
     padding-left:$value/4+rem !important;
   }
 }
-$widths:25,50,75,90,100;
+$widths:10,20,25,30,40,50,60,70,75,80,90,100;
 @each $width in  $widths {
   .w-#{$width}{
     width: percentage($width/100)!important;

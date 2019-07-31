@@ -9,6 +9,13 @@
       align-items: center;
 
     }
+    &.justify-content-center{
+      justify-content: center;
+    }
+    &.justify-content-space-around{
+      justify-content: space-around;
+    }
+  
     @for $value from 1 through 12 {
       .col-#{$value} {
         padding-left: 15px;
@@ -98,5 +105,12 @@
   display: flex;
   &.justify-content-center{
     justify-content: center;
+  }
+  &.justify-content-space-around{
+    justify-content: space-around;
+  }
+  &.align-items-center{
+    align-items: center;
+
   }
 }

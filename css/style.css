@@ -59,6 +59,12 @@ table {
 .container .row.align-items-center {
   align-items: center;
 }
+.container .row.justify-content-center {
+  justify-content: center;
+}
+.container .row.justify-content-space-around {
+  justify-content: space-around;
+}
 .container .row .col-1 {
   padding-left: 15px;
   padding-right: 15px;
@@ -738,6 +744,12 @@ table {
 .d-flex.justify-content-center {
   justify-content: center;
 }
+.d-flex.justify-content-space-around {
+  justify-content: space-around;
+}
+.d-flex.align-items-center {
+  align-items: center;
+}
 
 .m-1 {
   margin: 0.25rem !important;
@@ -1019,16 +1031,44 @@ table {
   padding-left: 1.75rem !important;
 }
 
+.w-10 {
+  width: 10% !important;
+}
+
+.w-20 {
+  width: 20% !important;
+}
+
 .w-25 {
   width: 25% !important;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.w-40 {
+  width: 40% !important;
 }
 
 .w-50 {
   width: 50% !important;
 }
 
+.w-60 {
+  width: 60% !important;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+
 .w-75 {
   width: 75% !important;
+}
+
+.w-80 {
+  width: 80% !important;
 }
 
 .w-90 {
@@ -1151,6 +1191,20 @@ body main > section:nth-child(4) .row > p {
 body main > section:nth-child(4) .row button {
   background-color: #064771;
   border: none;
+}
+body main > section:nth-child(5) h2 {
+  font-size: 28px;
+}
+body main > section:nth-child(5) .row > div > div:first-child {
+  width: 100%;
+  height: 167px;
+  background: url(../images/section5-bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body main > section:nth-child(5) .row > div > div:first-child > img {
+  height: 80px;
+  width: 96px;
 }
 
 /*# sourceMappingURL=style.css.map */
