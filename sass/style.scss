@@ -109,5 +109,27 @@ body {
         }
       }
     }
+    > section:nth-child(6) {
+      h2{
+        font-size: 28px;
+        background-color: whitesmoke;
+      }
+      .row{
+        >div{
+          img{
+            width:100%;
+          }
+          p{
+            line-height: 1.384615em;
+          }
+          
+          i{
+            font-size: 50px;
+            
+          }
+        }
+      }
+    }
+
   }
 }
