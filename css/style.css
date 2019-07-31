@@ -738,21 +738,195 @@ table {
   padding-right: 0px;
 }
 
-.d-flex {
-  display: flex;
+.d-flex,
+.d-sm-flex,
+.d-md-flex,
+.d-lg-flex,
+.d-xl-flex {
   flex-wrap: wrap;
 }
-.d-flex.justify-content-center {
+.d-flex.justify-content-center,
+.d-sm-flex.justify-content-center,
+.d-md-flex.justify-content-center,
+.d-lg-flex.justify-content-center,
+.d-xl-flex.justify-content-center {
   justify-content: center;
 }
-.d-flex.justify-content-space-around {
+.d-flex.justify-content-space-around,
+.d-sm-flex.justify-content-space-around,
+.d-md-flex.justify-content-space-around,
+.d-lg-flex.justify-content-space-around,
+.d-xl-flex.justify-content-space-around {
   justify-content: space-around;
 }
-.d-flex.align-items-center {
+.d-flex.justify-content-space-between,
+.d-sm-flex.justify-content-space-between,
+.d-md-flex.justify-content-space-between,
+.d-lg-flex.justify-content-space-between,
+.d-xl-flex.justify-content-space-between {
+  justify-content: space-between;
+}
+.d-flex.align-items-center,
+.d-sm-flex.align-items-center,
+.d-md-flex.align-items-center,
+.d-lg-flex.align-items-center,
+.d-xl-flex.align-items-center {
   align-items: center;
 }
-.d-flex.justify-content-end {
+.d-flex.justify-content-end,
+.d-sm-flex.justify-content-end,
+.d-md-flex.justify-content-end,
+.d-lg-flex.justify-content-end,
+.d-xl-flex.justify-content-end {
   justify-content: flex-end;
+}
+@media screen and (min-width: 576px) {
+  .d-flex.justify-content-sm-center,
+.d-sm-flex.justify-content-sm-center,
+.d-md-flex.justify-content-sm-center,
+.d-lg-flex.justify-content-sm-center,
+.d-xl-flex.justify-content-sm-center {
+    justify-content: center;
+  }
+  .d-flex.justify-content-sm-space-around,
+.d-sm-flex.justify-content-sm-space-around,
+.d-md-flex.justify-content-sm-space-around,
+.d-lg-flex.justify-content-sm-space-around,
+.d-xl-flex.justify-content-sm-space-around {
+    justify-content: space-around;
+  }
+  .d-flex.justify-content-sm-space-between,
+.d-sm-flex.justify-content-sm-space-between,
+.d-md-flex.justify-content-sm-space-between,
+.d-lg-flex.justify-content-sm-space-between,
+.d-xl-flex.justify-content-sm-space-between {
+    justify-content: space-between;
+  }
+  .d-flex.align-items-sm-center,
+.d-sm-flex.align-items-sm-center,
+.d-md-flex.align-items-sm-center,
+.d-lg-flex.align-items-sm-center,
+.d-xl-flex.align-items-sm-center {
+    align-items: center;
+  }
+  .d-flex.justify-content-sm-end,
+.d-sm-flex.justify-content-sm-end,
+.d-md-flex.justify-content-sm-end,
+.d-lg-flex.justify-content-sm-end,
+.d-xl-flex.justify-content-sm-end {
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 768px) {
+  .d-flex.justify-content-md-center,
+.d-sm-flex.justify-content-md-center,
+.d-md-flex.justify-content-md-center,
+.d-lg-flex.justify-content-md-center,
+.d-xl-flex.justify-content-md-center {
+    justify-content: center;
+  }
+  .d-flex.justify-content-md-space-around,
+.d-sm-flex.justify-content-md-space-around,
+.d-md-flex.justify-content-md-space-around,
+.d-lg-flex.justify-content-md-space-around,
+.d-xl-flex.justify-content-md-space-around {
+    justify-content: space-around;
+  }
+  .d-flex.justify-content-md-space-between,
+.d-sm-flex.justify-content-md-space-between,
+.d-md-flex.justify-content-md-space-between,
+.d-lg-flex.justify-content-md-space-between,
+.d-xl-flex.justify-content-md-space-between {
+    justify-content: space-between;
+  }
+  .d-flex.align-items-md-center,
+.d-sm-flex.align-items-md-center,
+.d-md-flex.align-items-md-center,
+.d-lg-flex.align-items-md-center,
+.d-xl-flex.align-items-md-center {
+    align-items: center;
+  }
+  .d-flex.justify-content-md-end,
+.d-sm-flex.justify-content-md-end,
+.d-md-flex.justify-content-md-end,
+.d-lg-flex.justify-content-md-end,
+.d-xl-flex.justify-content-md-end {
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 992px) {
+  .d-flex.justify-content-lg-center,
+.d-sm-flex.justify-content-lg-center,
+.d-md-flex.justify-content-lg-center,
+.d-lg-flex.justify-content-lg-center,
+.d-xl-flex.justify-content-lg-center {
+    justify-content: center;
+  }
+  .d-flex.justify-content-lg-space-around,
+.d-sm-flex.justify-content-lg-space-around,
+.d-md-flex.justify-content-lg-space-around,
+.d-lg-flex.justify-content-lg-space-around,
+.d-xl-flex.justify-content-lg-space-around {
+    justify-content: space-around;
+  }
+  .d-flex.justify-content-lg-space-between,
+.d-sm-flex.justify-content-lg-space-between,
+.d-md-flex.justify-content-lg-space-between,
+.d-lg-flex.justify-content-lg-space-between,
+.d-xl-flex.justify-content-lg-space-between {
+    justify-content: space-between;
+  }
+  .d-flex.align-items-lg-center,
+.d-sm-flex.align-items-lg-center,
+.d-md-flex.align-items-lg-center,
+.d-lg-flex.align-items-lg-center,
+.d-xl-flex.align-items-lg-center {
+    align-items: center;
+  }
+  .d-flex.justify-content-lg-end,
+.d-sm-flex.justify-content-lg-end,
+.d-md-flex.justify-content-lg-end,
+.d-lg-flex.justify-content-lg-end,
+.d-xl-flex.justify-content-lg-end {
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .d-flex.justify-content-xl-center,
+.d-sm-flex.justify-content-xl-center,
+.d-md-flex.justify-content-xl-center,
+.d-lg-flex.justify-content-xl-center,
+.d-xl-flex.justify-content-xl-center {
+    justify-content: center;
+  }
+  .d-flex.justify-content-xl-space-around,
+.d-sm-flex.justify-content-xl-space-around,
+.d-md-flex.justify-content-xl-space-around,
+.d-lg-flex.justify-content-xl-space-around,
+.d-xl-flex.justify-content-xl-space-around {
+    justify-content: space-around;
+  }
+  .d-flex.justify-content-xl-space-between,
+.d-sm-flex.justify-content-xl-space-between,
+.d-md-flex.justify-content-xl-space-between,
+.d-lg-flex.justify-content-xl-space-between,
+.d-xl-flex.justify-content-xl-space-between {
+    justify-content: space-between;
+  }
+  .d-flex.align-items-xl-center,
+.d-sm-flex.align-items-xl-center,
+.d-md-flex.align-items-xl-center,
+.d-lg-flex.align-items-xl-center,
+.d-xl-flex.align-items-xl-center {
+    align-items: center;
+  }
+  .d-flex.justify-content-xl-end,
+.d-sm-flex.justify-content-xl-end,
+.d-md-flex.justify-content-xl-end,
+.d-lg-flex.justify-content-xl-end,
+.d-xl-flex.justify-content-xl-end {
+    justify-content: flex-end;
+  }
 }
 
 .m-1 {
@@ -1139,6 +1313,10 @@ table {
   display: block;
 }
 
+.d-flex {
+  display: flex;
+}
+
 @media screen and (min-width: 576px) {
   .d-sm-none {
     display: none;
@@ -1146,6 +1324,10 @@ table {
 
   .d-sm-block {
     display: block;
+  }
+
+  .d-sm-flex {
+    display: flex;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1156,6 +1338,10 @@ table {
   .d-md-block {
     display: block;
   }
+
+  .d-md-flex {
+    display: flex;
+  }
 }
 @media screen and (min-width: 992px) {
   .d-lg-none {
@@ -1164,6 +1350,10 @@ table {
 
   .d-lg-block {
     display: block;
+  }
+
+  .d-lg-flex {
+    display: flex;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1174,9 +1364,68 @@ table {
   .d-xl-block {
     display: block;
   }
+
+  .d-xl-flex {
+    display: flex;
+  }
 }
 body h2, body p, body a, body h3 {
   font-family: "Ubuntu", sans-serif;
+}
+body header {
+  color: white;
+  background-color: #0678be;
+}
+body header > div {
+  background-color: #0678be;
+}
+body header > div button {
+  height: 72px;
+  background-color: transparent;
+  border: none;
+}
+body header > div button i {
+  font-size: 26px;
+}
+body header > div ul li {
+  height: 60px;
+  font-size: 18px;
+}
+body header > div ul li button {
+  background-color: #7cbc48;
+  height: 54px;
+  width: 132px;
+}
+body header nav {
+  height: 60px;
+}
+body header nav ul li {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+body header nav ul li img {
+  height: 60px;
+  width: 38px;
+}
+body header nav ul li i {
+  font-size: 28px;
+}
+body header nav ul li button {
+  background-color: #7cbc48;
+  border: none;
+  color: inherit;
+}
+body header nav ul li:hover {
+  background-color: white;
+  color: black;
+}
+body header nav ul li:hover button {
+  background-color: white;
+}
+body header nav ul li:first-child:hover, body header nav ul li:nth-last-child(2):hover {
+  background-color: inherit;
+  color: inherit;
 }
 body main > section:nth-child(1) {
   background: url(../images/bg-shapes.svg) #064771 no-repeat center/cover;

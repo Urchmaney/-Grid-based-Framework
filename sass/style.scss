@@ -9,6 +9,68 @@ body {
   h2,p,a,h3{
     font-family: 'Ubuntu',sans-serif;
   }
+  header{
+    color:white;
+    background-color: #0678be;
+
+    >div{
+      background-color: #0678be;
+      button{
+        height:72px;
+        background-color:transparent;
+        border:none;
+        i{
+          font-size: 26px;
+        }
+      }
+      ul{
+        li{
+          height:60px;
+          font-size: 18px;
+          button{
+            background-color: #7cbc48;
+            height:54px;
+            width: 132px;
+          }
+        }
+      }
+    }
+    nav{
+      height: 60px;
+      ul{
+        li{
+          height: 60px;
+          display: flex;
+          align-items: center;
+          img{
+            height:60px;
+            width: 38px;
+          }
+          i{
+            font-size: 28px;
+          }
+          button{
+            background-color: #7cbc48;
+            border: none;
+            color:inherit;
+
+          }
+        }
+        li:hover{
+          background-color: white;
+          color: black;
+          button{
+            background-color: white;
+          }
+        }
+        li:first-child:hover,li:nth-last-child(2):hover{
+          background-color: inherit;
+          color:  inherit;
+        }
+
+      }
+    }
+  }
   main {
     > section:nth-child(1) {
       h2{
