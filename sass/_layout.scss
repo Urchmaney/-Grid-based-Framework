@@ -5,12 +5,15 @@
 .absolute {
   position: absolute;
 }
+
 .fixed {
   position: fixed;
 }
+
 .static {
   position: static;
 }
+
 .d-none {
   display: none;
 }
@@ -18,6 +21,7 @@
 .d-block {
   display: block;
 }
+
 .d-flex {
   display: flex;
 }
@@ -26,9 +30,11 @@
   .d-sm-none {
     display: none;
   }
+
   .d-sm-block {
     display: block;
   }
+
   .d-sm-flex {
     display: flex;
   }
@@ -38,9 +44,11 @@
   .d-md-none {
     display: none;
   }
+
   .d-md-block {
     display: block;
   }
+
   .d-md-flex {
     display: flex;
   }
@@ -50,9 +58,11 @@
   .d-lg-none {
     display: none;
   }
+
   .d-lg-block {
     display: block;
   }
+
   .d-lg-flex {
     display: flex;
   }
@@ -62,9 +72,11 @@
   .d-xl-none {
     display: none;
   }
+
   .d-xl-block {
     display: block;
   }
+
   .d-xl-flex {
     display: flex;
   }
