@@ -1174,7 +1174,7 @@ table {
     display: block;
   }
 }
-body h2, body p {
+body h2, body p, body a, body h3 {
   font-family: "Ubuntu", sans-serif;
 }
 body main > section:nth-child(1) {
@@ -1269,6 +1269,23 @@ body main > section:nth-child(6) .row > div p {
 }
 body main > section:nth-child(6) .row > div i {
   font-size: 50px;
+}
+body main > section:nth-child(7) h2 {
+  font-size: 28px;
+  color: #4e4e4e;
+}
+body main > section:nth-child(7) .row {
+  max-width: 960px;
+}
+body main > section:nth-child(7) .row > div > div > img {
+  max-width: 100%;
+}
+body main > section:nth-child(7) .row > div a, body main > section:nth-child(7) .row > div p {
+  line-height: 1.384615em;
+  color: #4e4e4e;
+}
+body main > section:nth-child(7) .row > div a:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,7 +6,7 @@
 
 body {
   $drupalBlue:#064771;
-  h2,p{
+  h2,p,a,h3{
     font-family: 'Ubuntu',sans-serif;
   }
   main {
@@ -131,5 +131,26 @@ body {
       }
     }
 
+    > section:nth-child(7){
+      h2{
+        font-size: 28px;
+        color:#4e4e4e;
+      }
+      .row{
+        max-width: 960px;
+        >div{
+          >div>img{
+            max-width: 100%;
+          }
+          a,p{
+            line-height: 1.384615em;
+            color:#4e4e4e;
+          }
+          a:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
   }
 }
