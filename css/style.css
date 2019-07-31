@@ -740,6 +740,7 @@ table {
 
 .d-flex {
   display: flex;
+  flex-wrap: wrap;
 }
 .d-flex.justify-content-center {
   justify-content: center;
@@ -1286,6 +1287,37 @@ body main > section:nth-child(7) .row > div a, body main > section:nth-child(7) 
 }
 body main > section:nth-child(7) .row > div a:hover {
   text-decoration: underline;
+}
+body footer {
+  background-color: #064771;
+}
+body footer > div h2 {
+  font-size: 28px;
+}
+body footer > div button {
+  width: 150px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+body footer > div > div ul {
+  width: 200px;
+}
+body footer > div > div ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+body footer > div:nth-child(1) {
+  background-image: url(../images/footer-bg.jpg);
+  height: 149px;
+}
+body footer > div:nth-child(2) {
+  max-width: 1020px;
+}
+body footer > div:nth-child(2) > div:first-child {
+  border-bottom: 1px solid #0965a1;
+}
+body footer > div:nth-child(2) > div:last-child {
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */
