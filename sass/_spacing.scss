@@ -66,6 +66,22 @@ $widths: 10, 20, 25, 30, 40, 50, 60, 70, 75, 80, 90, 100;
   .bl-#{$value}{
     border-left:$value/7+rem solid black;
   }
+  .b-rounded-top-left-#{$value}{
+    border-top-left-radius:$value/7+rem;
+  }
+  .b-rounded-top-right-#{$value}{
+    border-top-right-radius:$value/7+rem;
+  }
+  .b-rounded-bottom-left-#{$value}{
+    border-bottom-left-radius:$value/7+rem;
+  }
+  .b-rounded-bottom-right-#{$value}{
+    border-bottom-right-radius:$value/7+rem;
+  }
+    
+}
+.b-circle{
+  border-radius:50%;
 }
 
 .b-color-red{
@@ -106,3 +122,4 @@ $widths: 10, 20, 25, 30, 40, 50, 60, 70, 75, 80, 90, 100;
 .b-color-brown{
   border-color:brown;
 }
+

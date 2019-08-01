@@ -1362,6 +1362,22 @@ table {
   border-left: 0.1428571429rem solid black;
 }
 
+.b-rounded-top-left-1 {
+  border-top-left-radius: 0.1428571429rem;
+}
+
+.b-rounded-top-right-1 {
+  border-top-right-radius: 0.1428571429rem;
+}
+
+.b-rounded-bottom-left-1 {
+  border-bottom-left-radius: 0.1428571429rem;
+}
+
+.b-rounded-bottom-right-1 {
+  border-bottom-right-radius: 0.1428571429rem;
+}
+
 .b-2 {
   border: 0.2857142857rem solid black;
 }
@@ -1380,6 +1396,22 @@ table {
 
 .bl-2 {
   border-left: 0.2857142857rem solid black;
+}
+
+.b-rounded-top-left-2 {
+  border-top-left-radius: 0.2857142857rem;
+}
+
+.b-rounded-top-right-2 {
+  border-top-right-radius: 0.2857142857rem;
+}
+
+.b-rounded-bottom-left-2 {
+  border-bottom-left-radius: 0.2857142857rem;
+}
+
+.b-rounded-bottom-right-2 {
+  border-bottom-right-radius: 0.2857142857rem;
 }
 
 .b-3 {
@@ -1402,6 +1434,22 @@ table {
   border-left: 0.4285714286rem solid black;
 }
 
+.b-rounded-top-left-3 {
+  border-top-left-radius: 0.4285714286rem;
+}
+
+.b-rounded-top-right-3 {
+  border-top-right-radius: 0.4285714286rem;
+}
+
+.b-rounded-bottom-left-3 {
+  border-bottom-left-radius: 0.4285714286rem;
+}
+
+.b-rounded-bottom-right-3 {
+  border-bottom-right-radius: 0.4285714286rem;
+}
+
 .b-4 {
   border: 0.5714285714rem solid black;
 }
@@ -1420,6 +1468,22 @@ table {
 
 .bl-4 {
   border-left: 0.5714285714rem solid black;
+}
+
+.b-rounded-top-left-4 {
+  border-top-left-radius: 0.5714285714rem;
+}
+
+.b-rounded-top-right-4 {
+  border-top-right-radius: 0.5714285714rem;
+}
+
+.b-rounded-bottom-left-4 {
+  border-bottom-left-radius: 0.5714285714rem;
+}
+
+.b-rounded-bottom-right-4 {
+  border-bottom-right-radius: 0.5714285714rem;
 }
 
 .b-5 {
@@ -1442,6 +1506,22 @@ table {
   border-left: 0.7142857143rem solid black;
 }
 
+.b-rounded-top-left-5 {
+  border-top-left-radius: 0.7142857143rem;
+}
+
+.b-rounded-top-right-5 {
+  border-top-right-radius: 0.7142857143rem;
+}
+
+.b-rounded-bottom-left-5 {
+  border-bottom-left-radius: 0.7142857143rem;
+}
+
+.b-rounded-bottom-right-5 {
+  border-bottom-right-radius: 0.7142857143rem;
+}
+
 .b-6 {
   border: 0.8571428571rem solid black;
 }
@@ -1462,6 +1542,22 @@ table {
   border-left: 0.8571428571rem solid black;
 }
 
+.b-rounded-top-left-6 {
+  border-top-left-radius: 0.8571428571rem;
+}
+
+.b-rounded-top-right-6 {
+  border-top-right-radius: 0.8571428571rem;
+}
+
+.b-rounded-bottom-left-6 {
+  border-bottom-left-radius: 0.8571428571rem;
+}
+
+.b-rounded-bottom-right-6 {
+  border-bottom-right-radius: 0.8571428571rem;
+}
+
 .b-7 {
   border: 1rem solid black;
 }
@@ -1480,6 +1576,26 @@ table {
 
 .bl-7 {
   border-left: 1rem solid black;
+}
+
+.b-rounded-top-left-7 {
+  border-top-left-radius: 1rem;
+}
+
+.b-rounded-top-right-7 {
+  border-top-right-radius: 1rem;
+}
+
+.b-rounded-bottom-left-7 {
+  border-bottom-left-radius: 1rem;
+}
+
+.b-rounded-bottom-right-7 {
+  border-bottom-right-radius: 1rem;
+}
+
+.b-circle {
+  border-radius: 50%;
 }
 
 .b-color-red {
